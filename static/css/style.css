@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+p{
+  font-size: 14px;
+
+}
+{% load static %}
+/* ==============Header============ */
+
+.header{
+  text-align: center;
+  height: 100vh;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+-webkit-background-size:cover;
+}
+.header-overlay{
+  height: 100vh;
+  background-color: rgba(7, 11, 111, 0.57)
+}
+.header-img img{
+  width: 100%
+}
+.header-text h1{
+
+    font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: 380;
+  line-height: 55px;
+  margin-top:150px;
+  padding-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.header-text p{
+
+font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 4px;
+
+}
+.header-btns{
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+.btn-android,
+.btn-android:focus,
+.btn-android:active,
+.btn-android:visited{
+  background: transparent;
+  border-color: rgb(116, 33, 154);
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: rgb(85, 2, 119);
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+/*=============About Us ================ */
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.section-title h2{
+  color: #333;
+  position: relative;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section-title h2::after{
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: rgb(141, 2, 194);
+  margin-left: -30px;
+}
+.section-title p{
+  color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}

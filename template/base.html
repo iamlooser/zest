@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zest 2K19</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- favicon image -->
+    <link rel="icon" type="image/png" href="{% static 'img/Lingayas_logo.png' %}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu" rel="stylesheet">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Style css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style media="screen">
+      .header{
+        background-image: url('{% static "img/bg.jpeg" %}');
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!--Nav Bar-->
+      <!--Header-->
+      <div class="header">
+        <div class="header-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <!--logo-->
+                <div class="logo text-center">
+                  <img src="{% static 'img/Lingayas_logo.png' %}" width="10%" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="header-text">
+                  <!-- Title and Description -->
+                  <h1>Zest 2K19</h1>
+                  <p>Lingayas Vidyapeeth</p>
+                </div>
+                <div class="header-btns">
+                  <!-- Header buttons -->
+                  <a class="btn btn-primary btn-android" href="#"><i class="fab fa-android"></i> Android App</a>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="header-img">
+                  <img src="{% static 'img/Lingayas_logo.png' %}" alt="">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--About Us-->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <!--logo-->
+              <div class="section-title">
+                <h2>About Us</h2>
+                <p>Radiance is the infectious feelings of hope, faith and love that people are left buzzing with after being inspired by something and because where there is hope there is also faith you are full of faith that you only have to do the thing because you are one hundred per cent equipped with the tools you need to do it. You were chosen to do the thing and love because if you are not lining in love, you are living in fear and if you are living in fear you have also lost your faith.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Testimonials-->
+      <section class="testimonials">
+        <div class="testimonials-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                    <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Warpper of Slides-->
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="{% static 'img/01.jpg' %}" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="{% static 'img/01.jpg' %}" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="{% static 'img/01.jpg' %}" alt="Third slide">
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    </main>
+    <!-- Booststrap JavaScript-->
+
+    <script type="{% static 'js/jquery.js' %}"></script>
+    <script type="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+
+  </body>
+</html>
